@@ -2,6 +2,17 @@
             font-family: 'Asap';
         }
         
+        .title {
+            padding: 100px 0 55px;
+            font-size: 46px;
+            color: #717171;
+            font-weight: bold;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
         .section-top {
             background-image: url('../img/background-top.png');
             background-size: 100%;
@@ -40,15 +51,79 @@
                 font-weight: 700;
                 font-size: 46px;
                 color: #4d4d4d;
-                border-top: 1px #7a7a7a solid;
-                border-width: 60px;
+                border-top: 4px #7a7a7a solid;
             }
             button {
                 background-color: transparent;
+                border: 1px solid #4d4d4d;
+                padding: 15px 50px;
+                text-align: center;
+                font-size: 16px;
+                color: #4d4d4d;
+                font-weight: 500;
             }
         }
         
         .services {
             background-color: #f6f6f6;
-            text-align: center;
+            p {
+                padding-top: 15px;
+            }
+        }
+        
+        .skills {
+            width: 100%;
+        }
+        
+        .portfolio {
+            background-color: #f6f6f6;
+            button {
+                background-color: white;
+                padding: 20px 50px;
+                border: none;
+                font-size: 16px;
+                font-weight: 500;
+                color: #4d4d4d;
+                margin-bottom: 120px;
+            }
+        }
+        
+        .testimonials {
+            margin-bottom: 125px;
+            h3 {
+                font-size: 30px;
+                color: #4d4d4d;
+                font-weight: 500;
+            }
+            p {
+                font-size: 16px;
+                color: #4d4d4d;
+                font-weight: 400;
+            }
+        }
+        
+        .container-achievement {
+            background-color: #f6f6f6;
+            .achievement {
+                padding-top: 50px;
+            }
+            .achievement-text {
+                color: #363636;
+                font-size: 22px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+            .value {
+                font-size: 30px;
+                padding-top: 30px;
+                font-weight: 500;
+            }
+        }
+        
+        footer {
+            background-image: url('../img/footer.png');
+        }
+        
+        .information {
+            width: 50%;
         }
