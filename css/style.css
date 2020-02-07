@@ -9,6 +9,12 @@ body {
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 23px;
+  }
+}
+
 .hr-title {
   height: 4px;
   background-color: #767676;
@@ -21,6 +27,7 @@ body {
   background-image: url("../img/background-top.png");
   background-size: cover;
   background-position: right;
+  background-position-x: 75%;
   height: 750px;
   text-align: left;
 }
@@ -34,13 +41,31 @@ body {
   font-size: 90px;
 }
 
+@media screen and (max-width: 768px) {
+  .section-top h1 {
+    font-size: 50px;
+  }
+}
+
 .section-top p {
   color: #4d4d4d;
   font-size: 22px;
 }
 
+@media screen and (max-width: 768px) {
+  .section-top p {
+    font-size: 15px;
+  }
+}
+
 .section-top .btn-re {
   margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-top .btn-re {
+    margin-right: 10px;
+  }
 }
 
 .nav-bar-re {
@@ -60,6 +85,27 @@ body {
 
 .nav-bar-re .navbar-nav > li > a:hover {
   border-bottom: 2px solid #878787;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar-re .navbar-nav > li > a {
+    color: #fff;
+    opacity: 0.7;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar-re .navbar-right {
+    background-color: black;
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar-re .navbar-brand {
+    height: auto;
+  }
 }
 
 .btn-re {
@@ -86,6 +132,19 @@ body {
 .about-me .row {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .about-me .row {
+    display: inline-block;
+  }
+  .about-me .row img {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .about-me .row p {
+    margin-bottom: 15px;
+  }
 }
 
 .about-me hr {
@@ -192,6 +251,20 @@ body {
   padding: 75px 60px 40px 120px;
 }
 
+@media screen and (max-width: 768px) {
+  .testimonials .carousel-wrapper {
+    padding: 35px 25px 15px 30px;
+    text-align: left;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials .carousel-wrapper .owl-carousel .owl-dots {
+    text-align: center;
+  }
+}
+
 .testimonials .carousel-wrapper .owl-carousel button.owl-dot {
   width: 13px;
   height: 13px;
@@ -211,10 +284,35 @@ body {
   visibility: visible;
 }
 
+@media screen and (max-width: 768px) {
+  .testimonials .carousel-wrapper .owl-carousel .owl-item {
+    visibility: visible;
+  }
+}
+
 .testimonials .item {
   text-align: left;
   display: flex;
   min-height: 160px;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials .item {
+    display: block;
+  }
+  .testimonials .item img {
+    margin: 0 auto;
+  }
+  .testimonials .item h3 {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .testimonials .item .small-p {
+    font-size: 6px;
+  }
+  .testimonials .item p {
+    font-size: 8px;
+  }
 }
 
 .testimonials .item img {
@@ -258,6 +356,12 @@ body {
   justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  .container-achievement .achievement-img {
+    height: 80px;
+  }
+}
+
 .container-achievement .achievement-text {
   color: #363636;
   font-size: 22px;
@@ -265,10 +369,23 @@ body {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 768px) {
+  .container-achievement .achievement-text {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+}
+
 .container-achievement .value {
   font-size: 30px;
   padding-top: 20px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .container-achievement .value {
+    font-size: 20px;
+  }
 }
 
 .section-bot {
@@ -287,10 +404,17 @@ body {
   margin-bottom: 60px;
 }
 
+@media screen and (max-width: 768px) {
+  .section-bot h1 {
+    font-size: 23px;
+  }
+}
+
 .section-bot form input {
   width: 100%;
   margin-bottom: 30px;
   padding: 13px 0 13px 10px;
+  border: none;
 }
 
 .section-bot form input::placeholder {
@@ -305,6 +429,7 @@ body {
   height: 200px;
   resize: none;
   padding: 13px 0 13px 10px;
+  border: none;
 }
 
 .section-bot form textarea::placeholder {
@@ -334,12 +459,24 @@ body {
   height: 85px;
 }
 
+@media screen and (max-width: 768px) {
+  .section-bot footer .container {
+    height: unset;
+  }
+}
+
 .section-bot footer .container .social-links {
   list-style: none;
   display: inline-block;
   padding: 0;
   position: absolute;
   left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-bot footer .container .social-links {
+    position: unset;
+  }
 }
 
 .section-bot footer .container .social-links li {
@@ -350,6 +487,13 @@ body {
   background-color: #fff;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .section-bot footer .container .social-links li {
+    width: 19px;
+    height: 19px;
+  }
 }
 
 .section-bot footer .container .social-links .facebook {
@@ -382,6 +526,17 @@ body {
   font-size: 16px;
   font-weight: 400;
   padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-bot footer .container span {
+    font-size: 13px;
+    padding-top: 21px;
+    text-align: center;
+    position: unset;
+    display: block;
+    padding-top: 0;
+  }
 }
 
 #back-to-top {
